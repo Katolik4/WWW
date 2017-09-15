@@ -30,16 +30,16 @@
 		</div>
 		<div class="nav">
 			<ol>
-				<li><a href="#">Strona główna</a></li>
+				<li><a href="index1.php">Strona główna</a></li>
 				<li><a href="#">Projekty</a>
 					<ul>
-						<li><a href="#">Contra</a></li>
-						<li><a href="#">Mario Bros</a></li>
-						<li><a href="#">Duck Tales</a></li>
-						<li><a href="#">Legend of Zelda</a></li>
+						<li><a href="#">ESP</a></li>
+						<li><a href="#">Raspberry Pi</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Zaloguj</a>
+				<li><a href="logowanie.php">Zaloguj</a>
 
 				</li>
 				<li><a href="#">O autorach</a></li>
