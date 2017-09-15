@@ -32,7 +32,7 @@
 			{
 				$wiersz = $rezultat->fetch_assoc();
 				
-				if ($haslo==$wiersz['pass'])
+				if (password_verify($haslo, $wiersz['pass']))
 				{
 					$_SESSION['zalogowany'] = true;
 					$_SESSION['id'] = $wiersz['id'];
