@@ -5,10 +5,10 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
-	<title>Retrogranie</title>
+	<title>Strona główna</title>
 	
-	<meta name="description" content="Serwis o starych grach pochodzących z Nintendo Entertainment System" />
-	<meta name="keywords" content="gry, komputerowe, retro, nes, konsole, retrogranie, stare gry" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
 	
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -30,7 +30,7 @@
 		</div>
 		<div class="nav">
 			<ol>
-				<li><a href="index1.php">Strona główna</a></li>
+				<li><a href="index.php">Strona główna</a></li>
 				<li><a href="#">Projekty</a>
 					<ul>
 						<li><a href="#">ESP</a></li>
