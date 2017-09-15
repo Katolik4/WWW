@@ -64,7 +64,11 @@
 		<div ID="Logowanie">
 			
 			Logowanie
-	
+			
+			<?php
+			if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+			?>
+			
 			<form action="zaloguj.php" method="post">
 	
 				<input type="text" name="login" placeholder = "login"> <br/>
@@ -125,9 +129,7 @@
 </script>
 
 
-<?php
-	if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
-?>
+
 
 </body>
 </html>
