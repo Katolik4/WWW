@@ -76,12 +76,7 @@
 			</form>
 		
 		</div>
-		
-		<div class="content">
-			Strona logowania
-		</div>
-		
-		
+				
 		<div class="socials">
 			<div class="socialdivs">
 				<div class="fb">
