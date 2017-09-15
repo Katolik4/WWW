@@ -15,6 +15,21 @@ body
 	margin-right: auto;
 	margin-top: 40px;
 	
+	-webkit-box-shadow: inset 0px 0px 104px 6px rgba(0,0,0,0.78);
+	-moz-box-shadow: inset 0px 0px 104px 6px rgba(0,0,0,0.78);
+	box-shadow: inset 0px 0px 104px 6px rgba(0,0,0,0.78);
+}
+
+input
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 .wrapper

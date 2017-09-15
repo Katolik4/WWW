@@ -7,8 +7,8 @@
 	
 	<title>Strona główna</title>
 	
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+	<meta name="description" content="Strona glowna" />
+	<meta name="keywords" content="piotr polakowski" />
 	
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
