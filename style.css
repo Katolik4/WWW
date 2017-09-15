@@ -20,7 +20,8 @@ body
 	box-shadow: inset 0px 0px 104px 6px rgba(0,0,0,0.78);
 }
 
-input
+input [type=text],
+input [type=password]
 {
 	width: 300px;
 	background-color: #efefef;
@@ -30,7 +31,36 @@ input
 	font-size: 20px;
 	padding: 10px;
 	box-sizing: border-box;
+	outline: none;
 }
+
+input [type=text]:fokus,
+input [type=text]:fokus
+{
+	-webkit-box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,0.78);
+	-moz-box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,0.78);
+	box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,0.78);
+	
+}
+
+input [type=submit]
+{
+	width: 300px;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+
+input [type=submit]
+{
+	background-color: #37b93d;
+	outline: none;
+}
+
 
 .wrapper
 {

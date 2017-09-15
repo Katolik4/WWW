@@ -62,10 +62,8 @@
 		
 		
 		<div ID="Logowanie">
-					Tylko martwi ujrzeli koniec wojny - Platon<br /><br />
-	
-			<a href="rejestracja.php">Rejestracja - załóż darmowe konto!</a>
-			<br /><br />
+			
+			Logowanie
 	
 			<form action="zaloguj.php" method="post">
 	
