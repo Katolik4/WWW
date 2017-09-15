@@ -29,16 +29,6 @@
 </head>
 
 <body>
-	
-	
-	
-	
-	
-	
-	
-<?php
-	if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
-?>
 
 		<div class="wrapper">
 		<div class="header">
@@ -131,21 +121,9 @@
 </script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<?php
+	if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+?>
 
 </body>
 </html>
