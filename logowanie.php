@@ -67,8 +67,8 @@
 	
 			<form action="zaloguj.php" method="post">
 	
-				Login: <br /> <input type="text" name="login" /> <br />
-				Hasło: <br /> <input type="password" name="haslo" /> <br /><br />
+				<input type="text" name="login" placeholder = "login"/> 
+				<input type="password" name="haslo" placeholder = "haslo"/> 
 			<input type="submit" value="Zaloguj się" />
 	
 			</form>
