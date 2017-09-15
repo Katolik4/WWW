@@ -9,6 +9,8 @@
 	}
 	
 ?>
+
+
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
@@ -30,6 +32,8 @@
 	echo "<br /><b>Dni premium</b>: ".$_SESSION['dnipremium']."</p>";
 	
 ?>
+
+<a href="rejestracja.php">Rejestracja</a>
 
 </body>
 </html>

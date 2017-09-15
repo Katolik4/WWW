@@ -151,7 +151,6 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>Osadnicy - załóż darmowe konto!</title>
-	<script src='https://www.google.com/recaptcha/api.js'></script>
 	
 	<style>
 		.error
@@ -238,16 +237,6 @@
 			{
 				echo '<div class="error">'.$_SESSION['e_regulamin'].'</div>';
 				unset($_SESSION['e_regulamin']);
-			}
-		?>	
-		
-		<div class="g-recaptcha" data-sitekey="PODAJ WŁASNY SITEKEY!"></div>
-		
-		<?php
-			if (isset($_SESSION['e_bot']))
-			{
-				echo '<div class="error">'.$_SESSION['e_bot'].'</div>';
-				unset($_SESSION['e_bot']);
 			}
 		?>	
 		
