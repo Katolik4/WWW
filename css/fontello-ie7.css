@@ -10,7 +10,25 @@
   /* font-size: 120%; */
 }
  
-.icon-facebook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
-.icon-youtube { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
-.icon-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
-.icon-gplus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-mail { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-gears { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-gear { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-comment { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-folder { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
+.icon-uwaga { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;'); }
+.icon-github { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;&nbsp;'); }
+.icon-gplus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d4;&nbsp;'); }
+.icon-sitemap { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e8;&nbsp;'); }
+.icon-rocket { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf135;&nbsp;'); }
+.icon-minus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf146;&nbsp;'); }
+.icon-ok { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf14a;&nbsp;'); }
+.icon-ja { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf183;&nbsp;'); }
+.icon-mail1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf199;&nbsp;'); }
+.icon-git { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1d2;&nbsp;'); }
+.icon-at { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1fa;&nbsp;'); }
+.icon-commenting { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf27a;&nbsp;'); }
+.icon-snapchat { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2ad;&nbsp;'); }
+.icon-thermometer { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2c9;&nbsp;'); }
+.icon-microchip { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2db;&nbsp;'); }
+.icon-facebook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf308;&nbsp;'); }
+.icon-linkedin { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf30c;&nbsp;'); }

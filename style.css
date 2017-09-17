@@ -7,71 +7,18 @@ body
 	margin: 0 !important;
 }
 
-#Logowanie
-{
-	width: 500px;
-	padding: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
-	
-	-webkit-box-shadow: inset 0px 0px 104px 6px rgba(0,0,0,0.78);
-	-moz-box-shadow: inset 0px 0px 104px 6px rgba(0,0,0,0.78);
-	box-shadow: inset 0px 0px 104px 6px rgba(0,0,0,0.78);
-}
-
-input [type=text],
-input [type=password]
-{
-	width: 300px;
-	background-color: #efefef;
-	color: #666;
-	border: 2px solid #ddd;
-	border-radius: 5px;
-	font-size: 20px;
-	padding: 10px;
-	box-sizing: border-box;
-	outline: none;
-	margin: 10px
-}
-
-input [type=text]:fokus,
-input [type=text]:fokus
-{
-	-webkit-box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,0.78);
-	-moz-box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,0.78);
-	box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,0.78);
-	
-}
-
-input [type=submit]
-{
-	width: 300px;
-	font-size: 20px;
-	color: white;
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	letter-spacing: 2px;
-}
-
-input [type=submit]
-{
-	background-color: #37b93d;
-	outline: none;
-}
-
-
 .wrapper
 {
-	width: 100%;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
-.header
+.rec
 {
 	width:100%;
-	padding: 40px 0;
+	padding: 40px;
 }
 
 .logo
@@ -80,26 +27,102 @@ input [type=submit]
 	font-size: 48px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.nav
-{ 
-	width: 100%;
-	padding: 10px 0;
-	background-color: #c34f4f;
 	text-align: center;
-	border-top: 1px solid #751b1b;
-	border-bottom: 1px solid #751b1b;
 }
 
-.content
+
+.reclogowanie
 {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: justify;
-	padding-top: 10px;
+	width: 400px;
+	padding: 40px;
+	margin-left:auto;
+	margin-right:auto;
 }
+
+.kloceklog
+{
+	width: 250px;
+	height: 50px;
+	background-color: #562551;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.square
+{
+	width: 50%;
+	float:left;
+}
+
+.tile
+{
+	margin: 10px;
+	width: 230px;
+	height: 140px;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
+}
+
+.tile:hover
+{
+	background-color: #2084c2;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 250px;
+	height: 155px;	
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 140px;	
+}
+
+a.logolink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.goto
+{
+	margin: 10px;
+	width: 210px;
+	height: 60px;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+.goto:hover
+{
+	background-color: #2084c2;
+}
+
+
+
+
+.okno
+{
+	width: 100%;
+	background-color: #4668b3;
+	margin: 10px;
+	min-height: 300px;
+	text-align: center;
+}
+
 
 .socials
 {
@@ -127,28 +150,28 @@ input [type=submit]
 	background-color: #4668b3;
 }
 
-.yt
+.in
 {
 	width: 250px;
 	height: 155px;
 	float:left;
 }
 
-.yt:hover
+.in:hover
 {
-	background-color: #d94348;
+	background-color: #0077b5;
 }
 
-.tw
+.git
 {
 	width: 250px;
 	height: 155px;
 	float:left;
 }
 
-.tw:hover
+.git:hover
 {
-	background-color: #3095d3;
+	background-color: #6e5494;
 }
 
 .gplus
@@ -170,84 +193,3 @@ input [type=submit]
 	padding: 30px;
 }
 
-.sticky
-{
-	width: 100%;
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 100;
-}
-
-ol
-{
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	font-size: 18px;
-	height: 35px;
-	line-height: 200%;
-	display: inline-block;
-}
-
-ol a
-{
-	color: #ffffff;
-	text-decoration: none;
-	display: block;
-}
-
-ol > li
-{
-	float: left;
-	width: 150px;
-	height: 40px;
-	border-right: 1px dashed #751b1b;
-}
-
-ol > li:first-child
-{
-	border-left: 1px dashed #751b1b;
-}
-
-ol > li:hover
-{
-	background-color: #cf6969;
-}
-
-ol > li:hover > a
-{
-	color: #451717;
-}
-
-ol > li > ul
-{
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	height: 40px;
-	display: none;
-}
-
-ol > li:hover > ul
-{
-	display: block;
-}
-
-ol > li > ul > li
-{
-	background-color:#cf6969;
-	position: relative;
-	z-index: 100;
-	border-top: 1px dashed #751b1b;
-}
-
-ol > li > ul > li:hover
-{
-	background-color: #c34f4f;
-}
-
-ol > li > ul > li:hover > a
-{
-	color: #451717;
-}

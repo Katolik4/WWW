@@ -1,5 +1,23 @@
 
-.icon-facebook:before { content: '\e800'; } /* '' */
-.icon-youtube:before { content: '\e801'; } /* '' */
-.icon-twitter:before { content: '\e802'; } /* '' */
-.icon-gplus:before { content: '\e803'; } /* '' */
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-gears:before { content: '\e801'; } /* '' */
+.icon-gear:before { content: '\e802'; } /* '' */
+.icon-comment:before { content: '\e803'; } /* '' */
+.icon-folder:before { content: '\e804'; } /* '' */
+.icon-uwaga:before { content: '\e805'; } /* '' */
+.icon-github:before { content: '\f09b'; } /* '' */
+.icon-gplus:before { content: '\f0d4'; } /* '' */
+.icon-sitemap:before { content: '\f0e8'; } /* '' */
+.icon-rocket:before { content: '\f135'; } /* '' */
+.icon-minus:before { content: '\f146'; } /* '' */
+.icon-ok:before { content: '\f14a'; } /* '' */
+.icon-ja:before { content: '\f183'; } /* '' */
+.icon-mail1:before { content: '\f199'; } /* '' */
+.icon-git:before { content: '\f1d2'; } /* '' */
+.icon-at:before { content: '\f1fa'; } /* '' */
+.icon-commenting:before { content: '\f27a'; } /* '' */
+.icon-snapchat:before { content: '\f2ad'; } /* '' */
+.icon-thermometer:before { content: '\f2c9'; } /* '' */
+.icon-microchip:before { content: '\f2db'; } /* '' */
+.icon-facebook:before { content: '\f308'; } /* '' */
+.icon-linkedin:before { content: '\f30c'; } /* '' */
