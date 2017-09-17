@@ -125,7 +125,7 @@
 		<div class="footer">Retrogranie.com &copy; 2015 Thank you for your visit Mario! But our Princess is in another castle ;-)</div>
 	</div>
 	
-	<script src="jquery-1.11.3.min.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>
 	
 	<script>
 

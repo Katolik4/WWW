@@ -49,13 +49,13 @@
 				}
 				else 
 				{
-					$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
+					$_SESSION['blad'] = '<span style="color:red">Nieprawidłowe hasło!</span>';
 					header('Location: logowanie.php');
 				}
 				
 			} else {
 				
-				$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
+				$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login</span>';
 				header('Location: logowanie.php');
 				
 			}
