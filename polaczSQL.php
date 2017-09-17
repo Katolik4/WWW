@@ -4,23 +4,23 @@
 	
 	require_once "connect.php";
 
-	$polaczenie = @new mysqli($host, $db_user, $db_password, $db_name);
+	$polaczenie1 = @new mysqli($host, $db_user, $db_password, $db_name);
 	
-	if ($polaczenie->connect_errno!=0)
+	if ($polaczenie1->connect_errno!=0)
 	{
 		echo "Error: ".$polaczenie->connect_errno;
 	}
 	else
 	{
-		if ($rezultat = @$polaczenie->query(
+		if ($rezultat = @$polaczenie1->query(
 		sprintf("SELECT * FROM ESP",
-		mysqli_real_escape_string($polaczenie))))
+		mysqli_real_escape_string($polaczenie1))))
 		{
-			$ile = $rezultat->num_rows;
-			if($ile>0)
+			$ile1 = $rezultat1->num_rows;
+			if($ile1>0)
 			{
 				
-					$wiersz = $rezultat->fetch_assoc();
+					$wiersz = $rezultat1->fetch_assoc();
 					$IDESP = $wiersz['IDESP'];
 					$IDCHIP = $wiersz['IDCHIP'];
 					$Status = $wiersz['Status'];
