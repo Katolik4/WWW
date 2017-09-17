@@ -50,13 +50,13 @@
 				else 
 				{
 					$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
-					header('Location: index.php');
+					header('Location: logowanie.php');
 				}
 				
 			} else {
 				
 				$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
-				header('Location: index.php');
+				header('Location: logowanie.php');
 				
 			}
 			
