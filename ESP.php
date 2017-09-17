@@ -86,13 +86,19 @@
 				<i class="icon-rocket"></i>
 			
 				<input type="submit" value="refresh">
+				<?php
+				if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+				?>
 				
 				<?php
+					
+					if($_SESSION['ESP_ok']==true)
+					{
 					echo "IDESP =" $IDESP;
 					echo "IDCHIP =" $IDCHIP;
 					echo "Satus =" $Status;
 					echo "Data =" $Data_stamp;
-				
+					}
 				?>
 			
 			
