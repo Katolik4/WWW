@@ -78,13 +78,16 @@
 		
 		</div>
 		
+		
 		<div class="content">
-		<div>
-			<i class="icon-rocket"></i>
+			<form action="polaczSQL.php" method="post">
 			
-			<input type="submit" value="refresh">
+				<i class="icon-rocket"></i>
 			
-		</div>
+				<input type="submit" value="refresh">
+			
+			
+			</form>
 		
 		
 		<form action="polaczSQL.php" method="post">
