@@ -52,12 +52,15 @@
 			</div>
 			
 			<div class="kloceklog">
-				<input type="text" name="login" placeholder = "login">
-				<input type="text" name="haslo" placeholder = "haslo">
-				<?php
-				if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
-				?>
-				<input type="submit" value="Zaloguj się">
+				<form action="zaloguj.php" method="post">
+				
+					<input type="text" name="login" placeholder = "login">
+					<input type="password" name="haslo" placeholder = "haslo">
+					<?php
+					if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+					?>
+					<input type="submit" value="Zaloguj się">
+				</form>
 			</div>
 			
 	
