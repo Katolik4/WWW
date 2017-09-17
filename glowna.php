@@ -21,7 +21,7 @@
 	<title>
 	<?php
 	
-	echo "<p>Witaj ".$_SESSION['user'].'!</p>';
+	echo "Witaj ".$_SESSION['user'].'!';
 		?>
 	</title>
 	
@@ -41,8 +41,8 @@
 		<div class="header">
 		
 			<div class="logo">
-				<img src="pad.png" style="float: left;"/>
-				<span style="color: #c34f4f">retro</span>granie.com
+				<img src="logo.png" style="float: left;"/>
+				Piotr Polakowski
 				<div style="clear:both;"></div>
 			</div>
 		</div>
