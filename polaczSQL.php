@@ -4,21 +4,21 @@
 	
 	require_once "connect.php";
 
-	$polaczenie1 = @new mysqli($host, $db_user, $db_password, $db_name);
+	$polaczenie = @new mysqli($host, $db_user, $db_password, $db_name);
 	
-	if ($polaczenie1->connect_errno!=0)
+	if ($polaczenie->connect_errno!=0)
 	{
 		echo "Error: ".$polaczenie->connect_errno;
 	}
 	else
 	{
-		if ($rezultat1 = @$polaczenie1->query("SELECT * FROM ESP"))
+		if ($rezultat = @$polaczenie->query("SELECT * FROM ESP"))
 		{
-			$ile1 = $rezultat1->num_rows;
-			if($ile1>0)
+			$ile = $rezultat->num_rows;
+			if($ile>0)
 			{
 				
-					$wiersz = $rezultat1->fetch_assoc();
+					$wiersz = $rezultat->fetch_assoc();
 					$IDESP = $wiersz['IDESP'];
 					$IDCHIP = $wiersz['IDCHIP'];
 					$Status = $wiersz['Status'];
@@ -34,6 +34,7 @@
 					unset($_SESSION['blad']);
 					$_SESSION['ESP_ok']=true;
 					$rezultat->free_result();
+					header('Location: ESP.php'
 					
 			} else {
 				
