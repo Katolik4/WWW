@@ -12,9 +12,7 @@
 	}
 	else
 	{
-		if ($rezultat = @$polaczenie1->query(
-		sprintf("SELECT * FROM ESP",
-		mysqli_real_escape_string($polaczenie1))))
+		if ($rezultat1 = @$polaczenie1->query("SELECT * FROM ESP"))
 		{
 			$ile1 = $rezultat1->num_rows;
 			if($ile1>0)
@@ -40,7 +38,7 @@
 			} else {
 				
 				$_SESSION['blad'] = '<span style="color:red">Brak wpisów</span>';
-				header('Location: logowanie.php');
+				header('Location: ESP.php');
 				
 			}
 			
