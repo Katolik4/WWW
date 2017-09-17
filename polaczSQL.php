@@ -24,7 +24,13 @@
 					$IDESP = $wiersz['IDESP'];
 					$IDCHIP = $wiersz['IDCHIP'];
 					$Status = $wiersz['Status'];
-					$Data_stamp = $wiersz['Data_stamp'];		
+					$Data_stamp = $wiersz['Data_stamp'];
+
+					echo "IDESP =" $IDESP;
+					echo "IDCHIP =" $IDCHIP;
+					echo "Satus =" $Status;
+					echo "Data =" $Data_stamp;
+					
 							
 				
 					unset($_SESSION['blad']);
