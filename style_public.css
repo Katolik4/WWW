@@ -114,9 +114,9 @@ a.logolink
 
 
 
-.okno
+#okno
 {
-	width: 100%;
+	width: 480px;
 	background-color: #4668b3;
 	margin: 10px;
 	min-height: 300px;
