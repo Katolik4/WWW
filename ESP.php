@@ -8,54 +8,6 @@
 		exit();
 	}
 	
-	require_once "connect.php";
-
-	$polaczenie = @new mysqli($host, $db_user, $db_password, $db_name);
-	
-	if ($polaczenie->connect_errno!=0)
-	{
-		echo "Error: ".$polaczenie->connect_errno;
-	}
-	else
-	{
-			
-		if ($rezultat = @$polaczenie->query(
-		sprintf("SELECT * FROM uzytkownicy WHERE user='%s'",
-		mysqli_real_escape_string($polaczenie,$login))))
-		{
-			$ilu_userow = $rezultat->num_rows;
-			
-			if($ilu_userow>0)
-			{
-				$wiersz = $rezultat->fetch_assoc();
-				
-				
-				$_SESSION['zalogowany'] = true;
-				$_SESSION['id'] = $wiersz['id'];
-				$_SESSION['user'] = $wiersz['user'];
-				$_SESSION['drewno'] = $wiersz['drewno'];
-				$_SESSION['kamien'] = $wiersz['kamien'];
-				$_SESSION['zboze'] = $wiersz['zboze'];
-				$_SESSION['email'] = $wiersz['email'];
-				$_SESSION['dnipremium'] = $wiersz['dnipremium'];
-				
-				
-				unset($_SESSION['blad']);
-				$rezultat->free_result();
-				header('Location: glowna.php');
-								
-			} else {
-				
-				$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
-				header('Location: index.php');
-				
-			}
-			
-		}
-		
-		$polaczenie->close();
-	}
-	
 ?>
 
 
@@ -96,7 +48,7 @@
 		</div>
 		<div class="nav">
 			<ol>
-				<li><a href="#">Strona główna</a></li>
+				<li><a href="glowna.php">Strona główna</a></li>
 				<li><a href="#">IoT</a>
 					<ul>
 						<li><a href="#">ESP</a></li>
@@ -105,9 +57,9 @@
 						<li><a href="#">Mqtt</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Pliki</a>
+				<li><a href="#">DOM</a>
 					<ul>
-						<li><a href="#">Home Alone</a></li>
+						<li><a href="ESP.php">ESP</a></li>
 						<li><a href="#">Dick Tracy</a></li>
 						<li><a href="#">The Simpsons</a></li>
 						<li><a href="#">Top Gun</a></li>
@@ -127,15 +79,18 @@
 		</div>
 		
 		<div class="content">
+		<div>
+			<i class="icon-rocket"></i>
+			
+			<input type="submit" value="refresh">
+			
+		</div>
+		
 		
 		<form action="polaczSQL.php" method="post">
 		
 		</form>
-			
-			
-			
-
-		
+				
 			
 		</div>
 				
