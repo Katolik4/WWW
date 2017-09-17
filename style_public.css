@@ -121,14 +121,7 @@ input[type=submit]:focus
 	background-color: #2084c2;
 }
 
-a.sociallink
-{
-	color: #ffffff;
-	text-decoration: none;
-	display: block;
-	width: 250px;
-	height: 155px;	
-}
+
 
 a.tilelink
 {
@@ -172,6 +165,21 @@ a.logolink
 	margin: 10px;
 	min-height: 300px;
 	text-align: center;
+}
+
+
+
+
+
+/* Media */ 
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 250px;
+	height: 155px;	
 }
 
 
@@ -236,6 +244,10 @@ a.logolink
 {
 	background-color: #d95333;
 }
+
+
+
+/* Stopka */ 
 
 .footer
 {

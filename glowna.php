@@ -38,17 +38,21 @@
 <body>
 
 	<div class="wrapper">
+		
 		<div class="header">
 		
 			<div class="logo">
-				<img src="logo.png" style="float: left;"/>
-				Piotr Polakowski
-				<div style="clear:both;"></div>
+				<a href="index.html" class="logolink">
+					<img src="logo.png" style="float: left;"/>			
+					Piotr Polakowski
+				</a>
 			</div>
 		</div>
+		
+		
 		<div class="nav">
 			<ol>
-				<li><a href="#">Strona główna</a></li>
+				<li><a href="glowna.php">Strona główna</a></li>
 				<li><a href="#">Projekty</a>
 					<ul>
 						<li><a href="#">Contra</a></li>
@@ -57,7 +61,7 @@
 						<li><a href="#">Legend of Zelda</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Pliki</a>
+				<li><a href="#">Dom</a>
 					<ul>
 						<li><a href="#">Home Alone</a></li>
 						<li><a href="#">Dick Tracy</a></li>
@@ -104,23 +108,7 @@
 			<p>Nunc mollis, massa scelerisque elementum condimentum, mauris ipsum accumsan purus, in semper leo erat vel turpis. Etiam varius feugiat diam eu sagittis. Curabitur dapibus sollicitudin dictum. In tincidunt at mauris vel dictum. Vivamus id imperdiet sem. Nam viverra ac massa ac ultricies. Nam condimentum commodo faucibus. Integer eget facilisis massa, sit amet vulputate purus. Duis in eros pulvinar eros porttitor pellentesque non volutpat dui. Nam laoreet scelerisque leo, accumsan porttitor tortor dignissim tempus. Nunc sit amet rutrum lorem. Cras malesuada risus sit amet aliquet vestibulum. Donec tellus nibh, pretium sed diam vitae, aliquet tempus risus.</p>
 		</div>
 		
-		<div class="socials">
-			<div class="socialdivs">
-				<div class="fb">
-					<i class="icon-facebook"></i>
-				</div>
-				<div class="yt">
-					<i class="icon-youtube"></i>
-				</div>
-				<div class="tw">
-					<i class="icon-twitter"></i>
-				</div>
-				<div class="gplus">
-					<i class="icon-gplus"></i>
-				</div>
-				<div style="clear:both"></div>
-			</div>
-		</div>
+
 		
 		<div class="footer">Retrogranie.com &copy; 2015 Thank you for your visit Mario! But our Princess is in another castle ;-)</div>
 	</div>

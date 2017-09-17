@@ -128,17 +128,9 @@
 		
 		<div class="content">
 		
-			<?php
-
-			echo "<p>Witaj ".$_SESSION['user'].'! [ <a href="logout.php">Wyloguj się!</a> ]</p>';
-			echo "<p><b>Drewno</b>: ".$_SESSION['drewno'];
-			echo " | <b>Kamień</b>: ".$_SESSION['kamien'];
-			echo " | <b>Zboże</b>: ".$_SESSION['zboze']."</p>";
-	
-			echo "<p><b>E-mail</b>: ".$_SESSION['email'];
-			echo "<br /><b>Dni premium</b>: ".$_SESSION['dnipremium']."</p>";
-	
-			?>
+		<form action="polaczSQL.php" method="post">
+		
+		</form>
 			
 			
 			
@@ -146,25 +138,7 @@
 		
 			
 		</div>
-		
-		<div class="socials">
-			<div class="socialdivs">
-				<div class="fb">
-					<i class="icon-facebook"></i>
-				</div>
-				<div class="yt">
-					<i class="icon-youtube"></i>
-				</div>
-				<div class="tw">
-					<i class="icon-twitter"></i>
-				</div>
-				<div class="gplus">
-					<i class="icon-gplus"></i>
-				</div>
-				<div style="clear:both"></div>
-			</div>
-		</div>
-		
+				
 		<div class="footer">Retrogranie.com &copy; 2015 Thank you for your visit Mario! But our Princess is in another castle ;-)</div>
 	</div>
 	
