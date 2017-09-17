@@ -1,3 +1,6 @@
+
+var kafelek = 0;
+
 function wyswietl_okno()
 {
 	document.getElementById("test_okno").innerHTML="afhadfhsdfhdsfhsdfhsdfh";
@@ -5,6 +8,6 @@ function wyswietl_okno()
 
 function fokus_1()
 {
-	document.getElementByID("test_okno").innerHTML="fokus!!";
+	document.getElementById("test_okno").innerHTML="fokus!!";
 }
 
