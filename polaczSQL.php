@@ -21,31 +21,16 @@
 			{
 				for ($i=1; $i <= $ile; $i++)
 				{
-					$row = mysqli_fetch_assoc($rezultat);
-					$odpd = $row['odpd'];
-					$answer = $row['answer'];
-					$kategoria = $row['kategoria'];
-					$rok = $row['rok'];		
-		
-echo<<<END
-<td width="50" align="center">$id</td>
-<td width="100" align="center">$tresc</td>
-<td width="100" align="center">$odpa</td>
-<td width="100" align="center">$odpb</td>
-<td width="100" align="center">$odpc</td>
-<td width="100" align="center">$odpd</td>
-<td width="100" align="center">$answer</td>
-<td width="100" align="center">$kategoria</td>
-<td width="50" align="center">$rok</td>
-</tr><tr>
-END;
+					$wiersz = $rezultat->fetch_assoc();
+					$IDESP = $wiersz['IDESP'];
+					$IDCHIP = $wiersz['IDCHIP'];
+					$Status = $wiersz['Status'];
+					$Data_stamp = $wiersz['Data_stamp'];		
 				}
 				
 				
 					unset($_SESSION['blad']);
 					$rezultat->free_result();
-					header('Location: ESP.php');
-					
 			} else {
 				
 				$_SESSION['blad'] = '<span style="color:red">Brak wpisów</span>';

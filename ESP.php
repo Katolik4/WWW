@@ -85,9 +85,20 @@
 				<i class="icon-rocket"></i>
 			
 				<input type="submit" value="refresh">
+				
+				<?php
+					echo "IDESP =" $IDESP;
+					echo "IDCHIP =" $IDCHIP;
+					echo "Satus =" $Status;
+					echo "Data =" $Data_stamp;
+				
+				?>
+			
 			
 			
 			</form>
+		
+		
 		
 		
 		<form action="polaczSQL.php" method="post">
