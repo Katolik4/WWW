@@ -80,6 +80,7 @@
 		
 		
 		<div class="content">
+		
 			<form action="polaczSQL.php" method="post">
 			
 				<i class="icon-rocket"></i>
@@ -97,14 +98,7 @@
 			
 			
 			</form>
-		
-		
-		
-		
-		<form action="polaczSQL.php" method="post">
-		
-		</form>
-				
+						
 			
 		</div>
 				
