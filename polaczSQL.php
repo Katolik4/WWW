@@ -13,7 +13,7 @@
 	else
 	{
 		if ($rezultat = @$polaczenie->query(
-		sprintf("SELECT * FROM 'ESP'",
+		sprintf("SELECT * FROM ESP",
 		mysqli_real_escape_string($polaczenie))))
 		{
 			$ile = $rezultat->num_rows;
