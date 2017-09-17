@@ -85,7 +85,7 @@
 			
 				<i class="icon-rocket"></i>
 			
-				<input type="submit" value="refresh">
+				<input type="submit" name="refresh" value="refresh">
 				
 				<?php
 				if(isset($_SESSION['blad']))	echo $_SESSION['blad'];

@@ -34,7 +34,7 @@
 					unset($_SESSION['blad']);
 					$_SESSION['ESP_ok']=true;
 					$rezultat->free_result();
-					header('Location: ESP.php'
+					header('Location: ESP.php');
 					
 			} else {
 				
